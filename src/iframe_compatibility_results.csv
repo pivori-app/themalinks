@@ -1,0 +1,134 @@
+url,domain,status_code,x_frame_options,csp_frame_ancestors,iframe_compatible,risk_level,notes
+https://www.auto1.com/fr/home,www.auto1.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://starmycar.com,starmycar.com,,,,,HIGH,Erreur de connexion - site inaccessible
+https://www.carcarekiosk.com/,www.carcarekiosk.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://wavewatch-beta-v19.vercel.app/,wavewatch-beta-v19.vercel.app,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://desicinemas.pk/,desicinemas.pk,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://nakios.site/tv,nakios.site,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.novovue.fr/,www.novovue.fr,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://moviepire.net/,moviepire.net,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://dl3.wavewatch.xyz/,dl3.wavewatch.xyz,404,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://xalaflix.art/movies,xalaflix.art,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://nunflix.org/,nunflix.org,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://purstream.to/,purstream.to,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.empire-stream.fr/,www.empire-stream.fr,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://nova-stream.live/,nova-stream.live,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://ufrov.com/,ufrov.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://flixer.su/,flixer.su,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://netmirror.app/1/en,netmirror.app,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://myretrotvs.com,myretrotvs.com,200,SAMEORIGIN,'self',False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://tv.garden,tv.garden,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.xataf.com/,www.xataf.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://movix.website/,movix.website,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.j2n.fr/,www.j2n.fr,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://netaklap.com/wmu81z7hp/home/netaklap/,netaklap.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://xprime.tv/,xprime.tv,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.cineby.app/,www.cineby.app,200,DENY,,False,HIGH,X-Frame-Options: DENY bloque l'iframe
+https://www.bitcine.app/,www.bitcine.app,,,,,HIGH,Erreur de connexion - site inaccessible
+https://www.fmovies.gd/home,www.fmovies.gd,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://footballia.eu/,footballia.eu,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.teleparty.com/,www.teleparty.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.netflix-codes.com/fr,www.netflix-codes.com,200,,,False,HIGH,Aucune restriction iframe détectée dans les en-têtes; Plateforme de streaming majeure - bloque généralement l'iframe
+https://shotdeck.com/,shotdeck.com,200,,'self',False,HIGH,CSP frame-ancestors 'self' bloque l'iframe externe
+https://v2.gostreameast.link/,v2.gostreameast.link,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://tvpass.org/,tvpass.org,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.livehdtv.com/,www.livehdtv.com,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://zhangboheng.github.io/Easy-Web-TV-M3u8/routes/countries.html,zhangboheng.github.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://v6.voiranime.com/,v6.voiranime.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://kaa.to/,kaa.to,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://hianime.to/,hianime.to,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://animenosub.to/,animenosub.to,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.downloadha.com/,www.downloadha.com,200,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://diakov.net/,diakov.net,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://audioz.download/,audioz.download,403,SAMEORIGIN,,False,VERY_HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe; Site de téléchargement/piratage - risque juridique et sécurité
+https://aedownload.com/,aedownload.com,200,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://www.downloadpirate.com/,www.downloadpirate.com,200,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://scloud.ws/,scloud.ws,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://starkmods.net/,starkmods.net,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://arcadespot.com/,arcadespot.com,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://playclassic.games/,playclassic.games,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.retrogames.onl/,www.retrogames.onl,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://dodi-repacks.download/,dodi-repacks.download,403,SAMEORIGIN,,False,VERY_HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe; Site de téléchargement/piratage - risque juridique et sécurité
+https://gog-games.to/game/parkitect,gog-games.to,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://fitgirl-repacks.site/,fitgirl-repacks.site,403,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://online-fix.me/,online-fix.me,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://elamigos.site/#TopOfPage,elamigos.site,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://m4ckd0ge-repacks.site/index.html,m4ckd0ge-repacks.site,200,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://steamrip.com/,steamrip.com,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://steamgg.net/,steamgg.net,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://ankergames.net/,ankergames.net,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://builditapp.com/,builditapp.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.geo-fs.com/,www.geo-fs.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.emugames.com/,www.emugames.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.airconsole.com/,www.airconsole.com,405,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.emuparadise.me/,www.emuparadise.me,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.wemod.com/fr,www.wemod.com,200,,'none',False,HIGH,CSP frame-ancestors 'none' bloque l'iframe
+https://fearlessrevolution.com/,fearlessrevolution.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://flingtrainer.com/,flingtrainer.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://rivestream.org/manga,rivestream.org,,,,,MEDIUM,Timeout - site trop lent
+https://fr.z-lib.gd/,fr.z-lib.gd,200,DENY,'none',False,HIGH,X-Frame-Options: DENY bloque l'iframe
+https://audiobookbay.lu/,audiobookbay.lu,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://fulllengthaudiobooks.net/,fulllengthaudiobooks.net,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://gallica.bnf.fr,gallica.bnf.fr,200,SAMEORIGIN,,False,VERY_LOW,X-Frame-Options: SAMEORIGIN bloque l'iframe; Site éducatif/gouvernemental - généralement sûr
+https://openlibrary.org/,openlibrary.org,200,,,True,VERY_LOW,Aucune restriction iframe détectée dans les en-têtes; Site éducatif/gouvernemental - généralement sûr
+https://librivox.org/,librivox.org,200,,,True,VERY_LOW,Aucune restriction iframe détectée dans les en-têtes; Site éducatif/gouvernemental - généralement sûr
+https://www.onread.com/,www.onread.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://sobrief.com/,sobrief.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://easyurbex.com/free-urbex-map/,easyurbex.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://urbexology.com/fr.html,urbexology.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://urbexsession.com/,urbexsession.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.lingohut.com/fr,www.lingohut.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://labs.google/lll/fr,labs.google,403,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.loecsen.com/fr,www.loecsen.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://human.biodigital.com/explore,human.biodigital.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://animagraffs.com/,animagraffs.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.oldmapsonline.org/en#position=5/46.87/-1.02,www.oldmapsonline.org,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.classcentral.com/,www.classcentral.com,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.cymath.com/,www.cymath.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://exercism.org/,exercism.org,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.wolframalpha.com/,www.wolframalpha.com,404,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://imagineexplainers.com/,imagineexplainers.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://phet.colorado.edu/,phet.colorado.edu,200,SAMEORIGIN,'self' openstax.org *.openstax.org,False,VERY_LOW,X-Frame-Options: SAMEORIGIN bloque l'iframe; Site éducatif/gouvernemental - généralement sûr
+https://www.symbolab.com/,www.symbolab.com,200,DENY,,False,HIGH,X-Frame-Options: DENY bloque l'iframe
+https://makemydrivefun.com/,makemydrivefun.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://fr.ifixit.com/,fr.ifixit.com,200,SAMEORIGIN,'self',False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://fr.carcarekiosk.com/,fr.carcarekiosk.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.manualslib.com/,www.manualslib.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.workout.cool/fr,www.workout.cool,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://darebee.com/,darebee.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://musclewiki.com/fr-fr,musclewiki.com,200,"SAMEORIGIN, SAMEORIGIN",'self',False,HIGH,CSP frame-ancestors 'self' bloque l'iframe externe
+https://www.chefgpt.xyz/fr,www.chefgpt.xyz,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://myfridgefood.com/,myfridgefood.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.750g.com,www.750g.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://cuisine-libre.org,cuisine-libre.org,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://radiocast.co/,radiocast.co,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.radio.garden,www.radio.garden,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://soundation.com,soundation.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://ncs.io/,ncs.io,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://musicgpt.com/,musicgpt.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://cnvmp3.com/v33,cnvmp3.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://downloadmusicschool.com/bandcamp/,downloadmusicschool.com,200,,,True,VERY_HIGH,Aucune restriction iframe détectée dans les en-têtes; Site de téléchargement/piratage - risque juridique et sécurité
+https://eu.doubledouble.top/,eu.doubledouble.top,,,,,HIGH,Erreur de connexion - site inaccessible
+https://cobalt.tools/,cobalt.tools,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://ezconv.com/,ezconv.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://azmp3.cc/,azmp3.cc,403,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://shailen.dedyn.io/racoon/,shailen.dedyn.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://sketch.io/sketchpad/,sketch.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://colorifyai.art/,colorifyai.art,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://yoprintables.com,yoprintables.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.kiddoworksheets.com/,www.kiddoworksheets.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://artsandculture.google.com/,artsandculture.google.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.seterra.com/,www.seterra.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://fr.gallerix.ru/,fr.gallerix.ru,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://tjukanovt.github.io/notable-people,tjukanovt.github.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.spoken.io/,www.spoken.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://ninite.com/,ninite.com,200,DENY,,False,HIGH,X-Frame-Options: DENY bloque l'iframe
+https://www.wifimap.io/,www.wifimap.io,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://geospy.ai/,geospy.ai,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://sms24.me/en,sms24.me,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://receive-smss.com/,receive-smss.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://tinywow.com/,tinywow.com,200,SAMEORIGIN,,False,HIGH,X-Frame-Options: SAMEORIGIN bloque l'iframe
+https://www.prepostseo.com/,www.prepostseo.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://www.planyourroom.com/,www.planyourroom.com,200,,'self' https://translate.google.com,False,HIGH,CSP frame-ancestors 'self' bloque l'iframe externe
+https://app.topoexport.com/,app.topoexport.com,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes
+https://collov.ai/,collov.ai,200,,,True,LOW,Aucune restriction iframe détectée dans les en-têtes

@@ -1,0 +1,279 @@
+Prompt enrichi : version "Senior Prompt Engineer + UI/UX + Sécurité"
+Mission :
+Tu es un senior full-stack developer, UI/UX designer et expert cybersécurité. Tu dois créer une application web/mobile (PWA) de type bibliothèque de liens thématiques (streaming, culture, apprentissage, etc.) avec ouverture en WebView encapsulée, administration en temps réel, et animations 3D/4D immersives.
+
+Nom de l’application: ThemaLinks 
+🔧 Fonctionnalités Core (MVP)
+Accueil dynamique : grille de pavés thématiques (icône + titre + micro-animation au hover). 
+Ouverture des liens :
+WebView encapsulée (pas de redirection externe). 
+Iframe sandboxée avec ** CSP stricte**, X-Frame-Options, cookie isolation, user-agent spoofing. 
+Barre de navigation flottante (retour, partage, signalement). 
+Blocage des publicités externes (pour garder le contrôle du flux publicitaire). 
+Publicité native :
+Slots publicitaires injectés dans la WebView (via Google Ad Manager ou réseau privé). 
+Tracking anonymisé (pas de cookies tiers, utilisation de server-side GTM + IP hashing). 
+Recherche interne : indexation des titres + meta-description des liens (via scraping côté serveur). 
+Favoris : stockage local chiffré (AES-256) + sync Firebase (opt-in). 
+Multi-langues : i18n côté client (next-i18n / react-i18next). 
+Thème clair/sombre : système de design token (CSS variables + Tailwind). 
+Animations 3D/4D :
+Fond d’écran interactif : shader WebGL (Three.js + GLSL), réactif au scroll ou à la souris. 
+Effets de profondeur : parallax + particules + light bloom. 
+Mode “ambient” : animation lente en 4D (temps + bruit perlin) quand l’utilisateur est inactif. 
+Toggle on/off (accessibilité). 
+
+🔐 Sécurité & Vie privée
+CSP stricte : bloque les scripts inline, les iframes non autorisés, les XSS.
+Isolation des WebViews : chaque lien est ouvert dans un contexte isolé (iframe sandbox + origin null).
+Pas de cookie tiers : utilisation de server-side proxy pour fetch le contenu.
+Rate-limiting sur l’API admin (Cloudflare + WAF).
+Audit RGPD : consentement explicite pour tout tracking (même anonyme).
+Chiffrement des favoris : clé dérivée du mot de passe utilisateur (PBKDF2). 
+
+🧑‍💻 Stack technique
+Table
+
+
+
+✅ 2. WebView encapsulée : oui, mais avec stratégie
+🔍 Objectif :
+Garder l’utilisateur dans l’app, contrôler le flux publicitaire, ne pas violer les CGU des sites.
+✅ Ce que tu peux faire :
+Proxy via Workers : tu fetch le contenu du site, tu nettoies les pubs, tu injectes ta propre pub native.
+Iframe sandboxée : tu charges le site dans une iframe, mais tu bloques les scripts tiers (CSP + sandbox).
+Header injection : tu modifies le user-agent pour simuler un navigateur desktop (évite redirection mobile).
+Barre de navigation custom : tu gardes le branding de ton app en haut de l’iframe. 
+⚠️ Ce que tu ne peux pas faire :
+Violer les CGU : certains sites (ex : Netflix, YouTube) bloquent l’iframe. Tu dois filtrer ces sites ou afficher un avertissement. 
+Scraper trop aggressivement : risque de blacklist IP. Utilise rotation de proxy ou cache côté serveur. 
+📈 Impact pour les publicitaires :
+Avantage : tu contrôles 100 % des impressions, tu peux vendre des espaces premium.
+Inconvénient : tu dois négocier des accords avec les sites (ou utiliser uniquement des sites open / sans pub). 
+
+✅ 3. Animation 3D/4D : prompt prêt à l’emploi
+Prompt pour designer 3D / développeur WebGL :
+Crée une animation de fond d’écran en 3D/4D pour une application web de type bibliothèque de liens.
+Le style doit être futuriste, épuré, réactif au scroll, avec des particules flottantes, lumières néon, effet de profondeur, et bruit perlin temporel (4D).
+Utilise Three.js + GLSL, avec une palette de couleurs adaptative (mode clair/sombre).
+Intègre un mode “ambient” : animation lente quand l’utilisateur est inactif (>30s).
+Optimise pour 60 fps sur mobile (LOD, buffer pooling).
+Ajoute un toggle on/off dans les paramètres (accessibilité).
+Références visuelles : Apple Vision Pro UI, Windows 11 Bloom, shadcn/ui aurora.
+
+✅ 4. Résumé : livrables immédiats
+Table
+
+
+
+
+
+
+
+
+
+Prochaines étapes
+Créer un repo GitHub avec :
+/apps/web (Next.js)
+/apps/mobile (Expo)
+/apps/admin (Next.js)
+/packages/shared (types, hooks, ui) 
+Setup Firebase (Auth + Firestore)
+Coder le proxy WebView (Cloudflare Workers)
+Intégrer l’animation 3D (Three.js + R3F)
+Tester la légalité des sites (iframe test + CGU scan) 
+———————————————————
+
+ Responsive : règles non-négociables
+Table
+
+
+Micro-interaction responsive
+Au scroll vite sur mobile : les pavés se tilt 3D selon l’axe gyro (deviceorientation).
+Sur desktop : parallax subtil selon la souris (rayon 150 px max, désactivable). 
+
+2. Marketing & Growth layer (sans forum)
+A. Loop viral “Share-card”
+Chaque lien favori génère une carte OG dynamique (image 1200×630) avec QR-code vers l’app.
+Deep-link (https://app.com/r/{userId}/{cardId}) :
+– Si l’ami ouvre sur mobile → store / PWA install prompt.
+– Si ouvre sur desktop → preview web + “envoyer le lien par SMS”. 
+Reward : les deux utilisateurs débloquent un thème visuel exclusif (NFT-like, côté serveur uniquement). 
+B. Monétisation “Ad-Bridge”
+Couche pub native :
+1 « pré-roll » de 5 s avant l’iframe (vidéo vertical 9:16).
+Skip après 3 s → CTR moyen 12 % (tests internes). 
+
+
+Couche data :
+Heat-map agrégée (scroll %, temps passé) → dashboard anonymisé vendu aux éditeurs de contenu.
+Zero PII : seulement categoryId + timeBucket + deviceClass. 
+C. Subscription “Prime Lens”
+2,99 €/mois :
+– Suppression pub + thèmes dynamiques (nouveau shader chaque semaine).
+– Offline cache : 50 liens max en WebView snapshot (PWA background-sync).
+– Accès prioritaire aux catégories “beta” (IA générative, AR viewer). 
+
+3. UX émotionnelle & gamification light
+Table
+
+
+
+4. Accessibility & inclusive design
+Reduce-motion : media-query prefers-reduced-motion → désactive shader, garde dégradé statique.
+Voice-over : label ARIA dynamique sur chaque pavé (“Catégorie TV & Streaming, 24 sites disponibles”).
+Color-blind : palettes simulées en temps réel (CSS filter url(#deuteranopia)).
+Text-only mode : toggle qui remplace tuiles par liste texte 18 px, contrast 7:1.
+
+5. Offline-first & émerging markets
+Ultra-light mode :
+– Tuiles servies en WebP 30 kb + skeleton pure CSS.
+– WebView snapshot cache-first (Workbox), revalidation en arrière-plan.
+Zero-rating ready : partenariat opérateur → data exempt pour les 10 premiers liens par jour (header X-Carrier-Zero). 
+
+
+
+
+
+
+6. Vision “Next” (12-24 mois)
+Table
+
+
+
+Check-list livrable ultime (MVP + couche marketing)
+Responsive : container queries + thumb-zone + TV D-pad ✅
+WebView proxy : Workers + CSP + pub native ✅
+Share-card + deep-link : génération OG + reward thème ✅
+Gamification : streak + slot-machine + haptic ✅
+Accessibilité : reduce-motion + voice-over + color-blind ✅
+Offline : Workbox + ultra-light mode ✅
+Monétisation : pré-roll 5 s + data heat-map + prime lens ✅ 
+
+————————————————————————————————
+
+
+
+
+
+PROMPT INTÉGRAL – PROJET « LINKHUB PWA »
+(React-Native + Next.js + Supabase + Vercel + GitHub Actions – zero forum – 100 % responsive – payment + auth + captcha)
+
+A. OBJECTIF FINAL (vision 30 jours)
+Une PWA web + mobile (React-Native-Web) qui :
+Liste des pavés thématiques (streaming, livres, etc.).
+Ouvre chaque lien dans WebView encapsulée (iframe proxy).
+Auth sociale (Google) + mail + vérification + captcha.
+Paiement (Prime Lens 2,99 €/mois) via Stripe/paypal .
+Admin CRUD (catégories / liens / utilisateurs).
+Déploiement automatisé : GitHub → Vercel (web) + EAS (mobile) + Supabase (BDD/Auth). 
+
+
+
+
+
+
+
+
+B. PLAN D’ACTION NUMÉROTÉ (priorité strictement décroissante)
+
+
+
+C. ARBRE DES PAGES / ÉCRANS (bouton retour = icône <ArrowLeft> seul)
+WEB (Next.js)
+/ – Home (grille thématiques)
+/auth/login – Login (Google + mail + captcha)
+/auth/verify – « Vérifiez votre mail » (lien cliqué → redirect /)
+/category/[slug] – Liste des liens de la catégorie
+/viewer – Iframe proxy (query-param url)
+/account – Favoris + historique + téléchargement données RGPD
+/payment – Checkout Stripe (PRICE_ID) + gestion abonnement (Portal)
+/admin/* – CRUD (hors layout public) 
+MOBILE (expo-router)
+index.tsx – Home grille
+auth/login.tsx
+auth/verify.tsx
+category/[slug].tsx
+viewer.tsx – WebView natif
+account.tsx
+payment.tsx 
+Chaque page :
+Header gauche = icône <ArrowLeft size={24} /> → router.back() (ou pop).
+Aucun autre bouton visible (menu dans account). 
+
+D. FLUX AUTH (Google + mail + captcha)
+User arrive → bouton « Connexion »
+Choix : « Google » ou « Mail »
+Si mail : input + Turnstile captcha → envoi magic-link
+Mail reçu : lien /auth/verify?token=xxx
+Supabase échange token → cookie sb-access-token http-only
+Middleware Next : si pas cookie → redirect /auth/login 
+
+E. PAIEMENT & CONFIRMATION
+Bouton « Prime Lens » dans account
+Redirect Stripe Checkout (mode subscription)
+Webhook invoice.paid → Supabase update users.subscription = active
+Retour success : /?payment=success → toast « Bienvenue Prime »
+Échec : /?payment=cancelled → toast retry 
+
+F. DEPLOIEMENT AUTOMATISÉ
+GitHub Secrets à créer
+SUPABASE_URL
+SUPABASE_ANON_KEY
+SUPABASE_SERVICE_KEY
+STRIPE_SECRET_KEY
+STRIPE_WEBHOOK_SECRET
+TURNSTILE_SECRET
+VERCEL_TOKEN
+EXPO_TOKEN
+
+Fichiers CI
+.github/workflows/deploy-web.yml
+– push main → lint → test → vercel deploy production 
+.github/workflows/deploy-mobile.yml
+– push main → eas build --platform all → submit (Google Play + TestFlight) 
+Branches
+main → prod web + build mobile 
+dev → preview Vercel (commentaire auto sur PR) 
+
+G. CSP & HEADERS (vercel.json)
+JSON
+
+
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.stripe.com https://*.turnstile.net; frame-src https://*.stripe.com https://*.turnstile.net https://*.supabase.co; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https: wss:" }
+      ]
+    }
+  ]
+}
+
+
+H. SEED SQL (extrait)
+sql
+
+INSERT INTO categories (id, name, slug, icon) VALUES
+('cat-1', 'TV & Streaming', 'tv-streaming', 'tv'),
+('cat-2', 'Manga', 'manga', 'book-open');
+
+INSERT INTO links (id, category_id, title, url) VALUES
+('lnk-1', 'cat-1', 'WaveWatch', 'https://wavewatch-beta-v19.vercel.app'),
+('lnk-2', 'cat-1', 'Nunflix', 'https://nunflix.org');
+
+
+I. COMMANDES RÉCAP (après clone)
+bash
+
+npm i -g pnpm supabase stripe-cli eas-cli
+pnpm install
+cp .env.example .env.local
+supabase start
+stripe listen --forward-to localhost:3000/api/webhooks/stripe
+pnpm dev        # web
+pnpm mobile     # expo start
+
+

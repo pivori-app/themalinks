@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThemaLinks - Bibliothèque de Liens Thématiques</title>
+    <meta name="description" content="Découvrez une collection organisée de liens thématiques pour le streaming, l'apprentissage, la culture et bien plus encore." />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Meta tags PWA -->
+    <meta name="theme-color" content="#8B5CF6">
+    <meta name="background-color" content="#1e1b4b">
+    <meta name="display" content="standalone">
+    <meta name="orientation" content="portrait-primary">
+    
+    <!-- Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ThemaLinks">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    
+    <!-- Microsoft PWA -->
+    <meta name="msapplication-TileColor" content="#8B5CF6">
+    <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+    
+    <!-- Icônes -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-72x72.png">
+    
+    <!-- SEO et partage social -->
+    <meta property="og:title" content="ThemaLinks - Bibliothèque de Liens Thématiques">
+    <meta property="og:description" content="Découvrez le meilleur du web avec plus de 126 liens organisés par thématiques">
+    <meta property="og:image" content="/icons/icon-512x512.png">
+    <meta property="og:url" content="https://themalinks.vercel.app">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ThemaLinks">
+    <meta name="twitter:description" content="Découvrez le meilleur du web avec plus de 126 liens organisés par thématiques">
+    <meta name="twitter:image" content="/icons/icon-512x512.png">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', async () => {
+          try {
+            const registration = await navigator.serviceWorker.register('/sw-optimized.js');
+            console.log('✅ Service Worker optimisé enregistré:', registration);
+            
+            // Gérer les mises à jour
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // Nouvelle version disponible
+                  if (confirm('Une nouvelle version est disponible. Recharger maintenant ?')) {
+                    newWorker.postMessage({ type: 'SKIP_WAITING' });
+                    window.location.reload();
+                  }
+                }
+              });
+            });
+          } catch (error) {
+            console.error('❌ Erreur enregistrement Service Worker:', error);
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

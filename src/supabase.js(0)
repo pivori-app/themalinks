@@ -1,0 +1,94 @@
+import { createClient } from '@supabase/supabase-js';
+import * as AuthSession from 'expo-auth-session';
+import * as WebBrowser from 'expo-web-browser';
+import * as Crypto from 'expo-crypto';
+
+// Configuration Supabase
+const supabaseUrl = 'https://your-project.supabase.co';
+const supabaseAnonKey = 'your-anon-key';
+
+// Configuration pour Expo
+WebBrowser.maybeCompleteAuthSession();
+
+const redirectTo = AuthSession.makeRedirectUri({
+  useProxy: true,
+});
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    autoRefreshToken: true,
+    persistSession: true,
+    detectSessionInUrl: false,
+  },
+});
+
+// Authentification Google
+export const signInWithGoogle = async () => {
+  try {
+    const { data, error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo,
+        queryParams: {
+          access_type: 'offline',
+          prompt: 'consent',
+        },
+      },
+    });
+
+    if (error) throw error;
+    return { data, error: null };
+  } catch (error) {
+    console.error('Erreur Google Auth:', error);
+    return { data: null, error };
+  }
+};
+
+// Authentification Magic Link
+export const signInWithMagicLink = async (email) => {
+  try {
+    const { data, error } = await supabase.auth.signInWithOtp({
+      email,
+      options: {
+        emailRedirectTo: redirectTo,
+      },
+    });
+
+    if (error) throw error;
+    return { data, error: null };
+  } catch (error) {
+    console.error('Erreur Magic Link:', error);
+    return { data: null, error };
+  }
+};
+
+// Déconnexion
+export const signOut = async () => {
+  try {
+    const { error } = await supabase.auth.signOut();
+    if (error) throw error;
+    return { error: null };
+  } catch (error) {
+    console.error('Erreur déconnexion:', error);
+    return { error };
+  }
+};
+
+// Obtenir la session actuelle
+export const getCurrentSession = async () => {
+  try {
+    const { data: { session }, error } = await supabase.auth.getSession();
+    if (error) throw error;
+    return { session, error: null };
+  } catch (error) {
+    console.error('Erreur session:', error);
+    return { session: null, error };
+  }
+};
+
+// Écouter les changements d'authentification
+export const onAuthStateChange = (callback) => {
+  return supabase.auth.onAuthStateChange(callback);
+};
+
+export default supabase;

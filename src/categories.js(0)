@@ -1,0 +1,124 @@
+// Données complètes ThemaLinks - Version Mobile
+export const categories = [
+  {
+    id: 'streaming',
+    name: 'TV & Streaming',
+    description: 'Films, séries et contenus vidéo en streaming',
+    color: ['#8B5CF6', '#A855F7'],
+    icon: '📺',
+    links: [
+      { id: 1, title: 'Netflix', url: 'https://netflix.com', description: 'Plateforme de streaming premium avec films et séries' },
+      { id: 2, title: 'Prime Video', url: 'https://primevideo.com', description: 'Service de streaming Amazon avec contenu exclusif' },
+      { id: 3, title: 'Disney+', url: 'https://disneyplus.com', description: 'Contenu Disney, Marvel, Star Wars et National Geographic' },
+      { id: 4, title: 'HBO Max', url: 'https://hbomax.com', description: 'Séries HBO et films Warner Bros' },
+      { id: 5, title: 'Apple TV+', url: 'https://tv.apple.com', description: 'Productions originales Apple' },
+      { id: 6, title: 'Paramount+', url: 'https://paramountplus.com', description: 'Films et séries Paramount' },
+      { id: 7, title: 'Peacock', url: 'https://peacocktv.com', description: 'Streaming NBCUniversal' },
+      { id: 8, title: 'Hulu', url: 'https://hulu.com', description: 'Streaming TV et films américains' },
+      { id: 9, title: 'Crunchyroll', url: 'https://crunchyroll.com', description: 'Anime et manga en streaming' },
+      { id: 10, title: 'Funimation', url: 'https://funimation.com', description: 'Anime doublé en anglais' },
+      { id: 11, title: 'Twitch', url: 'https://twitch.tv', description: 'Streaming de jeux en direct' },
+      { id: 12, title: 'YouTube Premium', url: 'https://youtube.com/premium', description: 'YouTube sans publicité avec contenu exclusif' },
+      { id: 13, title: 'Dailymotion', url: 'https://dailymotion.com', description: 'Plateforme de partage vidéo française' },
+      { id: 14, title: 'Vimeo', url: 'https://vimeo.com', description: 'Plateforme vidéo pour créateurs' },
+      { id: 15, title: 'Plex', url: 'https://plex.tv', description: 'Serveur multimédia personnel' },
+      { id: 16, title: 'Jellyfin', url: 'https://jellyfin.org', description: 'Serveur multimédia open source' },
+      { id: 17, title: 'Kodi', url: 'https://kodi.tv', description: 'Centre multimédia open source' },
+      { id: 18, title: 'VLC Media Player', url: 'https://videolan.org', description: 'Lecteur multimédia universel' },
+      { id: 19, title: 'MX Player', url: 'https://mxplayer.in', description: 'Lecteur vidéo mobile populaire' },
+      { id: 20, title: 'Popcorn Time', url: 'https://popcorntime.app', description: 'Client BitTorrent pour streaming' },
+      { id: 21, title: 'Stremio', url: 'https://stremio.com', description: 'Centre multimédia avec addons' },
+      { id: 22, title: 'Emby', url: 'https://emby.media', description: 'Serveur multimédia personnel' },
+      { id: 23, title: 'Tubi', url: 'https://tubitv.com', description: 'Streaming gratuit avec publicités' },
+      { id: 24, title: 'Pluto TV', url: 'https://pluto.tv', description: 'TV en direct gratuite' },
+      { id: 25, title: 'IMDb TV', url: 'https://imdb.com/tv', description: 'Films et séries gratuits Amazon' }
+    ]
+  },
+  {
+    id: 'gaming',
+    name: 'Gaming',
+    description: 'Jeux en ligne et émulation rétro',
+    color: ['#10B981', '#059669'],
+    icon: '🎮',
+    links: [
+      { id: 26, title: 'Steam', url: 'https://store.steampowered.com', description: 'Plateforme de jeux PC la plus populaire' },
+      { id: 27, title: 'Epic Games Store', url: 'https://epicgames.com/store', description: 'Jeux gratuits chaque semaine' },
+      { id: 28, title: 'GOG', url: 'https://gog.com', description: 'Jeux DRM-free et rétro' },
+      { id: 29, title: 'Origin', url: 'https://origin.com', description: 'Plateforme EA Games' },
+      { id: 30, title: 'Uplay', url: 'https://ubisoft.com/uplay', description: 'Launcher Ubisoft' },
+      { id: 31, title: 'Battle.net', url: 'https://battle.net', description: 'Jeux Blizzard Entertainment' },
+      { id: 32, title: 'Xbox Game Pass', url: 'https://xbox.com/game-pass', description: 'Abonnement jeux Microsoft' },
+      { id: 33, title: 'PlayStation Now', url: 'https://playstation.com/ps-now', description: 'Streaming de jeux PlayStation' },
+      { id: 34, title: 'GeForce Now', url: 'https://geforce.com/geforce-now', description: 'Cloud gaming NVIDIA' },
+      { id: 35, title: 'Stadia', url: 'https://stadia.google.com', description: 'Cloud gaming Google' },
+      { id: 36, title: 'RetroArch', url: 'https://retroarch.com', description: 'Émulateur multi-console' },
+      { id: 37, title: 'OpenEmu', url: 'https://openemu.org', description: 'Émulateur rétro pour macOS' },
+      { id: 38, title: 'PCSX2', url: 'https://pcsx2.net', description: 'Émulateur PlayStation 2' },
+      { id: 39, title: 'Dolphin', url: 'https://dolphin-emu.org', description: 'Émulateur GameCube et Wii' },
+      { id: 40, title: 'Citra', url: 'https://citra-emu.org', description: 'Émulateur Nintendo 3DS' },
+      { id: 41, title: 'ArcadeSpot', url: 'https://arcadespot.com', description: 'Jeux d\'arcade classiques en ligne' }
+    ]
+  },
+  {
+    id: 'learning',
+    name: 'Apprendre',
+    description: 'Ressources éducatives et formation',
+    color: ['#F59E0B', '#D97706'],
+    icon: '📚',
+    links: [
+      { id: 42, title: 'Khan Academy', url: 'https://khanacademy.org', description: 'Cours gratuits dans toutes les matières' },
+      { id: 43, title: 'Coursera', url: 'https://coursera.org', description: 'Cours universitaires en ligne' },
+      { id: 44, title: 'edX', url: 'https://edx.org', description: 'Cours des meilleures universités' },
+      { id: 45, title: 'Udemy', url: 'https://udemy.com', description: 'Cours pratiques et professionnels' },
+      { id: 46, title: 'Duolingo', url: 'https://duolingo.com', description: 'Apprentissage des langues gamifié' },
+      { id: 47, title: 'Codecademy', url: 'https://codecademy.com', description: 'Apprendre la programmation' },
+      { id: 48, title: 'FreeCodeCamp', url: 'https://freecodecamp.org', description: 'Développement web gratuit' }
+    ]
+  },
+  {
+    id: 'tools',
+    name: 'Outils',
+    description: 'Outils et utilitaires web pratiques',
+    color: ['#3B82F6', '#2563EB'],
+    icon: '🛠️',
+    links: [
+      { id: 49, title: 'GitHub', url: 'https://github.com', description: 'Hébergement et collaboration de code' },
+      { id: 50, title: 'GitLab', url: 'https://gitlab.com', description: 'DevOps et gestion de code' },
+      { id: 51, title: 'Figma', url: 'https://figma.com', description: 'Design collaboratif en ligne' },
+      { id: 52, title: 'Notion', url: 'https://notion.so', description: 'Workspace tout-en-un' },
+      { id: 53, title: 'Trello', url: 'https://trello.com', description: 'Gestion de projets Kanban' },
+      { id: 54, title: 'Slack', url: 'https://slack.com', description: 'Communication d\'équipe' }
+    ]
+  },
+  {
+    id: 'music',
+    name: 'Musique',
+    description: 'Streaming musical et découverte',
+    color: ['#EF4444', '#DC2626'],
+    icon: '🎵',
+    links: [
+      { id: 55, title: 'Spotify', url: 'https://spotify.com', description: 'Streaming musical avec playlists' },
+      { id: 56, title: 'Apple Music', url: 'https://music.apple.com', description: 'Service musical Apple' },
+      { id: 57, title: 'YouTube Music', url: 'https://music.youtube.com', description: 'Musique et clips YouTube' },
+      { id: 58, title: 'Deezer', url: 'https://deezer.com', description: 'Streaming musical français' },
+      { id: 59, title: 'Tidal', url: 'https://tidal.com', description: 'Musique haute qualité' }
+    ]
+  },
+  {
+    id: 'social',
+    name: 'Social',
+    description: 'Réseaux sociaux et communication',
+    color: ['#8B5CF6', '#7C3AED'],
+    icon: '💬',
+    links: [
+      { id: 60, title: 'Twitter', url: 'https://twitter.com', description: 'Réseau social de microblogging' },
+      { id: 61, title: 'Instagram', url: 'https://instagram.com', description: 'Partage de photos et vidéos' },
+      { id: 62, title: 'LinkedIn', url: 'https://linkedin.com', description: 'Réseau professionnel' },
+      { id: 63, title: 'Facebook', url: 'https://facebook.com', description: 'Réseau social principal' },
+      { id: 64, title: 'TikTok', url: 'https://tiktok.com', description: 'Vidéos courtes virales' },
+      { id: 65, title: 'Discord', url: 'https://discord.com', description: 'Chat vocal et textuel' }
+    ]
+  }
+];
+
+export default categories;

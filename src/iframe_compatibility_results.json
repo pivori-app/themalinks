@@ -1,0 +1,1611 @@
+[
+  {
+    "url": "https://www.auto1.com/fr/home",
+    "domain": "www.auto1.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://starmycar.com",
+    "domain": "starmycar.com",
+    "status_code": null,
+    "x_frame_options": null,
+    "csp_frame_ancestors": null,
+    "iframe_compatible": null,
+    "risk_level": "HIGH",
+    "notes": [
+      "Erreur de connexion - site inaccessible"
+    ]
+  },
+  {
+    "url": "https://www.carcarekiosk.com/",
+    "domain": "www.carcarekiosk.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://wavewatch-beta-v19.vercel.app/",
+    "domain": "wavewatch-beta-v19.vercel.app",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://desicinemas.pk/",
+    "domain": "desicinemas.pk",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://nakios.site/tv",
+    "domain": "nakios.site",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.novovue.fr/",
+    "domain": "www.novovue.fr",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://moviepire.net/",
+    "domain": "moviepire.net",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://dl3.wavewatch.xyz/",
+    "domain": "dl3.wavewatch.xyz",
+    "status_code": 404,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://xalaflix.art/movies",
+    "domain": "xalaflix.art",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://nunflix.org/",
+    "domain": "nunflix.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://purstream.to/",
+    "domain": "purstream.to",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.empire-stream.fr/",
+    "domain": "www.empire-stream.fr",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://nova-stream.live/",
+    "domain": "nova-stream.live",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://ufrov.com/",
+    "domain": "ufrov.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://flixer.su/",
+    "domain": "flixer.su",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://netmirror.app/1/en",
+    "domain": "netmirror.app",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://myretrotvs.com",
+    "domain": "myretrotvs.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": "'self'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://tv.garden",
+    "domain": "tv.garden",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.xataf.com/",
+    "domain": "www.xataf.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://movix.website/",
+    "domain": "movix.website",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.j2n.fr/",
+    "domain": "www.j2n.fr",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://netaklap.com/wmu81z7hp/home/netaklap/",
+    "domain": "netaklap.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://xprime.tv/",
+    "domain": "xprime.tv",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.cineby.app/",
+    "domain": "www.cineby.app",
+    "status_code": 200,
+    "x_frame_options": "DENY",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: DENY bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.bitcine.app/",
+    "domain": "www.bitcine.app",
+    "status_code": null,
+    "x_frame_options": null,
+    "csp_frame_ancestors": null,
+    "iframe_compatible": null,
+    "risk_level": "HIGH",
+    "notes": [
+      "Erreur de connexion - site inaccessible"
+    ]
+  },
+  {
+    "url": "https://www.fmovies.gd/home",
+    "domain": "www.fmovies.gd",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://footballia.eu/",
+    "domain": "footballia.eu",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.teleparty.com/",
+    "domain": "www.teleparty.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.netflix-codes.com/fr",
+    "domain": "www.netflix-codes.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Plateforme de streaming majeure - bloque généralement l'iframe"
+    ]
+  },
+  {
+    "url": "https://shotdeck.com/",
+    "domain": "shotdeck.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": "'self'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "CSP frame-ancestors 'self' bloque l'iframe externe"
+    ]
+  },
+  {
+    "url": "https://v2.gostreameast.link/",
+    "domain": "v2.gostreameast.link",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://tvpass.org/",
+    "domain": "tvpass.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.livehdtv.com/",
+    "domain": "www.livehdtv.com",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://zhangboheng.github.io/Easy-Web-TV-M3u8/routes/countries.html",
+    "domain": "zhangboheng.github.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://v6.voiranime.com/",
+    "domain": "v6.voiranime.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://kaa.to/",
+    "domain": "kaa.to",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://hianime.to/",
+    "domain": "hianime.to",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://animenosub.to/",
+    "domain": "animenosub.to",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.downloadha.com/",
+    "domain": "www.downloadha.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://diakov.net/",
+    "domain": "diakov.net",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://audioz.download/",
+    "domain": "audioz.download",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://aedownload.com/",
+    "domain": "aedownload.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://www.downloadpirate.com/",
+    "domain": "www.downloadpirate.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://scloud.ws/",
+    "domain": "scloud.ws",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://starkmods.net/",
+    "domain": "starkmods.net",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://arcadespot.com/",
+    "domain": "arcadespot.com",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://playclassic.games/",
+    "domain": "playclassic.games",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.retrogames.onl/",
+    "domain": "www.retrogames.onl",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://dodi-repacks.download/",
+    "domain": "dodi-repacks.download",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://gog-games.to/game/parkitect",
+    "domain": "gog-games.to",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://fitgirl-repacks.site/",
+    "domain": "fitgirl-repacks.site",
+    "status_code": 403,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://online-fix.me/",
+    "domain": "online-fix.me",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://elamigos.site/#TopOfPage",
+    "domain": "elamigos.site",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://m4ckd0ge-repacks.site/index.html",
+    "domain": "m4ckd0ge-repacks.site",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://steamrip.com/",
+    "domain": "steamrip.com",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://steamgg.net/",
+    "domain": "steamgg.net",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://ankergames.net/",
+    "domain": "ankergames.net",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://builditapp.com/",
+    "domain": "builditapp.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.geo-fs.com/",
+    "domain": "www.geo-fs.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.emugames.com/",
+    "domain": "www.emugames.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.airconsole.com/",
+    "domain": "www.airconsole.com",
+    "status_code": 405,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.emuparadise.me/",
+    "domain": "www.emuparadise.me",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.wemod.com/fr",
+    "domain": "www.wemod.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": "'none'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "CSP frame-ancestors 'none' bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://fearlessrevolution.com/",
+    "domain": "fearlessrevolution.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://flingtrainer.com/",
+    "domain": "flingtrainer.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://rivestream.org/manga",
+    "domain": "rivestream.org",
+    "status_code": null,
+    "x_frame_options": null,
+    "csp_frame_ancestors": null,
+    "iframe_compatible": null,
+    "risk_level": "MEDIUM",
+    "notes": [
+      "Timeout - site trop lent"
+    ]
+  },
+  {
+    "url": "https://fr.z-lib.gd/",
+    "domain": "fr.z-lib.gd",
+    "status_code": 200,
+    "x_frame_options": "DENY",
+    "csp_frame_ancestors": "'none'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: DENY bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://audiobookbay.lu/",
+    "domain": "audiobookbay.lu",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://fulllengthaudiobooks.net/",
+    "domain": "fulllengthaudiobooks.net",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://gallica.bnf.fr",
+    "domain": "gallica.bnf.fr",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "VERY_LOW",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe",
+      "Site éducatif/gouvernemental - généralement sûr"
+    ]
+  },
+  {
+    "url": "https://openlibrary.org/",
+    "domain": "openlibrary.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site éducatif/gouvernemental - généralement sûr"
+    ]
+  },
+  {
+    "url": "https://librivox.org/",
+    "domain": "librivox.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site éducatif/gouvernemental - généralement sûr"
+    ]
+  },
+  {
+    "url": "https://www.onread.com/",
+    "domain": "www.onread.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://sobrief.com/",
+    "domain": "sobrief.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://easyurbex.com/free-urbex-map/",
+    "domain": "easyurbex.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://urbexology.com/fr.html",
+    "domain": "urbexology.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://urbexsession.com/",
+    "domain": "urbexsession.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.lingohut.com/fr",
+    "domain": "www.lingohut.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://labs.google/lll/fr",
+    "domain": "labs.google",
+    "status_code": 403,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.loecsen.com/fr",
+    "domain": "www.loecsen.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://human.biodigital.com/explore",
+    "domain": "human.biodigital.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://animagraffs.com/",
+    "domain": "animagraffs.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.oldmapsonline.org/en#position=5/46.87/-1.02",
+    "domain": "www.oldmapsonline.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.classcentral.com/",
+    "domain": "www.classcentral.com",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.cymath.com/",
+    "domain": "www.cymath.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://exercism.org/",
+    "domain": "exercism.org",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.wolframalpha.com/",
+    "domain": "www.wolframalpha.com",
+    "status_code": 404,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://imagineexplainers.com/",
+    "domain": "imagineexplainers.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://phet.colorado.edu/",
+    "domain": "phet.colorado.edu",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": "'self' openstax.org *.openstax.org",
+    "iframe_compatible": false,
+    "risk_level": "VERY_LOW",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe",
+      "Site éducatif/gouvernemental - généralement sûr"
+    ]
+  },
+  {
+    "url": "https://www.symbolab.com/",
+    "domain": "www.symbolab.com",
+    "status_code": 200,
+    "x_frame_options": "DENY",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: DENY bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://makemydrivefun.com/",
+    "domain": "makemydrivefun.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://fr.ifixit.com/",
+    "domain": "fr.ifixit.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": "'self'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://fr.carcarekiosk.com/",
+    "domain": "fr.carcarekiosk.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.manualslib.com/",
+    "domain": "www.manualslib.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.workout.cool/fr",
+    "domain": "www.workout.cool",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://darebee.com/",
+    "domain": "darebee.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://musclewiki.com/fr-fr",
+    "domain": "musclewiki.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN, SAMEORIGIN",
+    "csp_frame_ancestors": "'self'",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "CSP frame-ancestors 'self' bloque l'iframe externe"
+    ]
+  },
+  {
+    "url": "https://www.chefgpt.xyz/fr",
+    "domain": "www.chefgpt.xyz",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://myfridgefood.com/",
+    "domain": "myfridgefood.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.750g.com",
+    "domain": "www.750g.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://cuisine-libre.org",
+    "domain": "cuisine-libre.org",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://radiocast.co/",
+    "domain": "radiocast.co",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.radio.garden",
+    "domain": "www.radio.garden",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://soundation.com",
+    "domain": "soundation.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://ncs.io/",
+    "domain": "ncs.io",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://musicgpt.com/",
+    "domain": "musicgpt.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://cnvmp3.com/v33",
+    "domain": "cnvmp3.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://downloadmusicschool.com/bandcamp/",
+    "domain": "downloadmusicschool.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "VERY_HIGH",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes",
+      "Site de téléchargement/piratage - risque juridique et sécurité"
+    ]
+  },
+  {
+    "url": "https://eu.doubledouble.top/",
+    "domain": "eu.doubledouble.top",
+    "status_code": null,
+    "x_frame_options": null,
+    "csp_frame_ancestors": null,
+    "iframe_compatible": null,
+    "risk_level": "HIGH",
+    "notes": [
+      "Erreur de connexion - site inaccessible"
+    ]
+  },
+  {
+    "url": "https://cobalt.tools/",
+    "domain": "cobalt.tools",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://ezconv.com/",
+    "domain": "ezconv.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://azmp3.cc/",
+    "domain": "azmp3.cc",
+    "status_code": 403,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://shailen.dedyn.io/racoon/",
+    "domain": "shailen.dedyn.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://sketch.io/sketchpad/",
+    "domain": "sketch.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://colorifyai.art/",
+    "domain": "colorifyai.art",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://yoprintables.com",
+    "domain": "yoprintables.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.kiddoworksheets.com/",
+    "domain": "www.kiddoworksheets.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://artsandculture.google.com/",
+    "domain": "artsandculture.google.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.seterra.com/",
+    "domain": "www.seterra.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://fr.gallerix.ru/",
+    "domain": "fr.gallerix.ru",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://tjukanovt.github.io/notable-people",
+    "domain": "tjukanovt.github.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.spoken.io/",
+    "domain": "www.spoken.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://ninite.com/",
+    "domain": "ninite.com",
+    "status_code": 200,
+    "x_frame_options": "DENY",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: DENY bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.wifimap.io/",
+    "domain": "www.wifimap.io",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://geospy.ai/",
+    "domain": "geospy.ai",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://sms24.me/en",
+    "domain": "sms24.me",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://receive-smss.com/",
+    "domain": "receive-smss.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://tinywow.com/",
+    "domain": "tinywow.com",
+    "status_code": 200,
+    "x_frame_options": "SAMEORIGIN",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "X-Frame-Options: SAMEORIGIN bloque l'iframe"
+    ]
+  },
+  {
+    "url": "https://www.prepostseo.com/",
+    "domain": "www.prepostseo.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://www.planyourroom.com/",
+    "domain": "www.planyourroom.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": "'self' https://translate.google.com",
+    "iframe_compatible": false,
+    "risk_level": "HIGH",
+    "notes": [
+      "CSP frame-ancestors 'self' bloque l'iframe externe"
+    ]
+  },
+  {
+    "url": "https://app.topoexport.com/",
+    "domain": "app.topoexport.com",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  },
+  {
+    "url": "https://collov.ai/",
+    "domain": "collov.ai",
+    "status_code": 200,
+    "x_frame_options": "",
+    "csp_frame_ancestors": null,
+    "iframe_compatible": true,
+    "risk_level": "LOW",
+    "notes": [
+      "Aucune restriction iframe détectée dans les en-têtes"
+    ]
+  }
+]
